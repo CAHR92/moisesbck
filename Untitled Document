@@ -1,0 +1,42 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+
+alias python=python3.4
+alias pip=pip3.4
+
+export TNS_ADMIN=/usr/lib/oracle/12.2/client64/network/admin/tnsnames.ora
+export ORACLE_HOME=/usr/lib/oracle/12.2/client64
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib/:/u01/app/oracle/product/12.2.0/client_1/lib:$LD_LIBRARY_PATH
+
+#SERVICES
+export URL_IMG="https://150593db.ngrok.io/"
+export SERVICE_URL_LOCATION_STORES="https://services.elektra.com.mx/api/StoreLocator/"
+#QA
+#export BASE_URL_API_SALINAS="http://10.50.115.81:8080/WSPreEnvioDEXPAR/services/"
+#QA
+export BASE_URL_API_SALINAS="https://10.81.11.80:8503/WSPreEnvioDEXPAR/services/"
+#Extension
+export URL_EXTENSION="https://10.51.117.189:8443/WSDexDigital/DexDigital/canalesExternosCB/"
+
+#DESARROLLO
+#export BASE_URL_API_SALINAS="http://10.81.11.78:8513/WSPreEnvioDEXPAR/services/"
+#Produccion
+#export BASE_URL_API_SALINAS="http://10.81.11.203:8002/WSPreEnvioDEXMundial/services/"
+URL_SMS=http://apiz.calixtaondemand.com/Controller.php/__a/sms.send.remote.ol.sa
+MAIL_SMS=ldamaya@elektra.com.mx
+CTE_SMS=43158
+ENCPWD_SMS=1403e0956ee0d854b7bb5575f8bb1ddea8d8aac9612a114f7ff644143230afab
+NUM_TEL_SMS=5542848859
+APP_ID=136637906980000
+
+
+#DB
+export USER_DB='USRCHATBOT'
+export PASS_DB='plincos123'
+export SERVICE_DB='cdborcl'
+
+#FACEBOOK
+export ACCESS_TOKEN_FACEBOOK="EAAB8RX3ojKABANImT5ZASi0xAignlu22htoaVCOkgLbo2zGEVidlGMHEGLMdYcSrQwUMIqql1KZCmSIuqClKGV9VvM4o5gtX2C2GdvZAB8EnXu8IPpSAeEV70lGMJ3VtBp0wGQXWCRDfqqrRZAqW0oICasuhZCzZBKhOkZBpFTmJAZDZD"
+export VERIFY_TOKEN_FACEBOOK="plincos123"
+export API_GRAPH="https://graph.facebook.com/v2.9/me/messages?"
+http_proxy=http://jramosj:emiliohaddadramosm@10.50.8.20:8080/
+https_proxy=https://jramosj:emiliohaddadramosm@10.50.8.20:8080/
